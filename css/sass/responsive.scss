@@ -1,0 +1,282 @@
+@media (min-width: 1023px) {
+	.text-center{
+		text-align: center;
+	}
+
+	.br-mobile {
+		display: none;
+	}
+
+	.title {
+		font-size: 36px;
+		font-weight: 400;	
+		line-height: 45px;
+	}
+
+	.subtitle {
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		line-height: 20px;
+		margin: 25px 0 20px;
+	}
+
+	.about .text {
+		font-size: 16px;
+	}
+
+	.text {
+		font-size: 21px;
+		line-height: 32px;
+		font-weight: 300;
+	}
+
+	.about .title {
+		margin-top: 60px;
+	}
+
+	.about,
+	.building-images {
+		min-height: 520px;
+	}
+
+	.building-images p {
+		line-height: 24px;
+	}
+
+	.building-images {
+		background: url(../images/pattern_gallery.svg) center #363636;
+		background-size: contain;
+	}
+
+	.building-images h2 {
+		margin-bottom: 30px;
+	}
+
+	.carousel {
+		width: 563px;
+		margin: 100px 0;
+	}
+
+	.carousel .item {
+		border-radius:5px;
+		margin:0;
+	}
+
+	.carousel .glyphicon.glyphicon-chevron-left {
+		height: 64px;
+		width: 48px;
+	}
+
+	.glyphicon.glyphicon-chevron-right {
+		height: 64px;
+		width: 48px;
+	}
+
+	.carousel {
+		box-shadow: 0 36px 36px 0 rgba(0,0,0,0.5);
+	}
+
+	.carousel .glyphicon.glyphicon-chevron-left:before {
+		content: "";
+		background: url(../images/sprite.svg) no-repeat;
+		background-size: 400px 272px;
+		display: inline-block;
+		float: left;
+		width: 20px;
+		height: 27px;
+		background-position: -214px -48px;
+		margin: 18px 13px;
+	}
+
+	.glyphicon.glyphicon-chevron-right:before {
+		content: "";
+		background: url(../images/sprite.svg) no-repeat;
+		background-size: 400px 272px;
+		display: inline-block;
+		float: left;
+		width: 20px;
+		height: 27px;
+		background-position: -235px -48px;
+		margin: 18px 13px;
+	}
+
+	.carousel .glyphicon.glyphicon-chevron-left:hover,
+	.glyphicon.glyphicon-chevron-right:hover{
+		opacity: 1;
+	}
+
+	.flex-box {
+		display: flex;
+		align-items: center;
+		min-height: 660px;
+	}
+
+	.itens-building .title {
+		margin: 60px 0 30px;
+	}
+
+	.itens-building .item {
+		margin: 5px 0 5px;
+	}
+
+	.content-blueprint img {
+		height: 300px;
+	}
+
+	.call-modal.active {
+		top: 96px;
+	}
+
+	.blueprint .title {
+		margin: 50px 0 10px;
+	}
+
+	.blueprint .text {
+		margin-bottom: 40px;
+	}
+
+	.blueprint {
+		padding: 15px 0 100px;
+	}
+
+	.item-blueprint .text{
+		margin-bottom: 0;
+	}
+
+	.map {
+		background: url(../images/background_map-desk.jpg) no-repeat center #6c7b3a;
+		background-size: cover;
+	}
+
+	.map .text {
+		margin-top: 30px;
+	}
+
+	.content-icons {
+		margin: 10px 0 30px;
+	}
+
+	.address p{
+		display: inline-block;
+		float: left;
+		margin: 5px 40px 4px 12px;
+	}
+
+	.address ul li {
+		margin-top: 4px;
+	}
+
+	.iframe {
+		width: 563px;
+		margin: 100px 0;
+	}
+
+	iframe {
+		height: 440px;
+		width: 563px;
+	}
+
+	.building-images .btn-action {
+		max-width: 260px;
+	}
+
+	.contact {
+		background: url(../images/background_contato-desk.jpg) no-repeat center #282828;
+		background-size: cover;
+	}
+
+	.contact .title {
+		margin-top: 50px;
+	}
+
+	.legal-text {
+		margin-top: 80px;
+		float: left;
+	}
+
+	form {
+		float: left;
+		width: 100%;
+	}
+
+	form input {
+		height: 40px;
+		width: 270px;
+		border-radius: 5px;
+		background-color: #FDFDFD;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	}
+
+	.contact .text-small {
+		color: #FFFFFF;
+		font-family: Hind;
+		font-size: 21px;
+		line-height: 24px;
+		display: inline-block;
+	}
+
+	.contact .btn-action {
+		margin: 26px 0 40px;
+	}
+
+	.show-info {
+		margin:0;
+	}
+
+	.show-info p {
+		float: left;
+		margin: 0px 5px;
+	}
+
+	.half-screen {
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+
+	.address ul li a {
+		font-weight: bold;
+	}
+
+	.form-header {
+		width: 299px;
+		border-radius: 0 0 5px 5px;
+		background-color: #405860;
+		float: right;
+		min-height: 450px;
+		padding: 0 20px 0;
+	}
+
+
+	.form-header form {
+		border-bottom:0;
+		margin-bottom: 0;
+	}
+
+	.form-header input{
+		border-radius:5px;
+	}
+
+	.form-header .title {
+		font-size: 24px;
+		line-height: 28px;
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1100px){
+	.iframe {
+		width: 433px;
+	}
+
+	.carousel {
+		width: 100%;
+	}
+}	
+
+
+
+
+
+
